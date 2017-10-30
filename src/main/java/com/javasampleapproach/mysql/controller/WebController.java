@@ -21,7 +21,7 @@ public class WebController {
 		repository.save(new Customer("Kim", "Smith"));
 		repository.save(new Customer("David", "Williams"));
 		repository.save(new Customer("Peter", "Davis"));
-		return "Done";
+		return "Success";
 	}
 	
 	
